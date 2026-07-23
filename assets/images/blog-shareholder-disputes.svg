@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg9" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F5132"/>
+      <stop offset="100%" stop-color="#0B3D26"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" fill="url(#bg9)"/>
+  <g stroke="#EDE8DC" stroke-width="1" opacity="0.07">
+    <line x1="0" y1="70" x2="1200" y2="70"/><line x1="0" y1="140" x2="1200" y2="140"/><line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="200" y1="0" x2="200" y2="280"/><line x1="400" y1="0" x2="400" y2="280"/><line x1="600" y1="0" x2="600" y2="280"/>
+    <line x1="800" y1="0" x2="800" y2="280"/><line x1="1000" y1="0" x2="1000" y2="280"/>
+  </g>
+  <circle cx="900" cy="140" r="115" fill="#EDE8DC" opacity="0.05"/>
+  <!-- Boardroom table with two seats facing -->
+  <g transform="translate(770,90)" stroke="#C97C4F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="110" cy="90" rx="100" ry="34" fill="#EDE8DC" fill-opacity="0.12"/>
+    <circle cx="30" cy="40" r="16"/>
+    <path d="M8 90 q0 -30 22 -30 q22 0 22 30"/>
+    <circle cx="190" cy="40" r="16" opacity="0.85"/>
+    <path d="M168 90 q0 -30 22 -30 q22 0 22 30" opacity="0.85"/>
+  </g>
+  <!-- Two hands meeting (handshake, abstracted) -->
+  <g transform="translate(230,110)" stroke="#C97C4F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 40 L45 40 L65 20 Q75 10 85 20 L60 45 L100 45"/>
+    <path d="M220 30 L175 30 L155 10 Q145 0 135 10 L160 35 L120 35" opacity="0.85"/>
+    <path d="M100 45 Q110 50 120 35" stroke-width="5"/>
+  </g>
+</svg>

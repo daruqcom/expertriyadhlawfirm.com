@@ -1,0 +1,36 @@
+<svg viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F5132"/>
+      <stop offset="100%" stop-color="#0B3D26"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" fill="url(#bg3)"/>
+  <g stroke="#EDE8DC" stroke-width="1" opacity="0.07">
+    <line x1="0" y1="70" x2="1200" y2="70"/><line x1="0" y1="140" x2="1200" y2="140"/><line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="200" y1="0" x2="200" y2="280"/><line x1="400" y1="0" x2="400" y2="280"/><line x1="600" y1="0" x2="600" y2="280"/>
+    <line x1="800" y1="0" x2="800" y2="280"/><line x1="1000" y1="0" x2="1000" y2="280"/>
+  </g>
+  <circle cx="900" cy="140" r="115" fill="#EDE8DC" opacity="0.05"/>
+  <!-- Municipal building with columns -->
+  <g transform="translate(770,90)" stroke="#C97C4F" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 40 L100 0 L190 40" />
+    <line x1="0" y1="40" x2="200" y2="40"/>
+    <line x1="25" y1="45" x2="25" y2="130"/>
+    <line x1="60" y1="45" x2="60" y2="130"/>
+    <line x1="100" y1="45" x2="100" y2="130"/>
+    <line x1="140" y1="45" x2="140" y2="130"/>
+    <line x1="175" y1="45" x2="175" y2="130"/>
+    <line x1="0" y1="135" x2="200" y2="135"/>
+    <rect x="0" y="140" width="200" height="10" fill="#C97C4F" stroke="none"/>
+  </g>
+  <!-- Notice document with exclamation -->
+  <g transform="translate(230,75)">
+    <rect x="0" y="0" width="130" height="160" rx="8" fill="#EDE8DC" fill-opacity="0.92"/>
+    <line x1="18" y1="30" x2="112" y2="30" stroke="#0B3D26" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <line x1="18" y1="48" x2="90" y2="48" stroke="#0B3D26" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="65" cy="100" r="34" fill="none" stroke="#C97C4F" stroke-width="4"/>
+    <line x1="65" y1="84" x2="65" y2="104" stroke="#C97C4F" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="65" cy="118" r="3.5" fill="#C97C4F"/>
+  </g>
+</svg>
