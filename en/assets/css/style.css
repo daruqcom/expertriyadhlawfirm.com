@@ -372,5 +372,5 @@ footer{ background:var(--emerald-2); color:#A9C4B4; padding-block:50px 30px; fon
   .mobile-toggle{ display:block; }
   h1{ font-size:36px; }
   h2{ font-size:27px; }
-  .sidebar-cta{ position:static; }
+  .sidebar-cta{ position:static; order:-1; margin-block-end:28px; }
 }
