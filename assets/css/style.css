@@ -374,3 +374,12 @@ footer{ background:var(--emerald-2); color:#A9C4B4; padding-block:50px 30px; fon
   h2{ font-size:27px; }
   .sidebar-cta{ position:static; order:-1; margin-block-end:28px; }
 }
+
+/* directory disclaimer */
+footer .site-disclaimer{border-top:1px solid rgba(255,255,255,.18);margin-top:6px;padding:18px 0 20px;font-size:12px;line-height:1.7;color:#D6E4DA;}
+footer .site-disclaimer p{margin:0 0 10px;color:#D6E4DA;}
+footer .site-disclaimer p:last-child{margin-bottom:0;}
+footer .site-disclaimer a{color:#fff;text-decoration:underline;}
+
+.dir-note{font-size:14px;line-height:1.7;color:var(--ink-soft,#4a5a50);margin:14px 0 4px;}
+.dir-note a{text-decoration:underline;}
